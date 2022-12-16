@@ -64,7 +64,7 @@ margin-bottom: var(--mb-1-5);
     margin-bottom: var(--mb-2);
     height: 4rem;
 }
-.contact__form{
+.contact__form-input{
     position: absolute;
     top: 0;
     left: 0;

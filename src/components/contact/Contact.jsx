@@ -18,6 +18,7 @@ const Contact = () => {
         <span className="section__subtitle">Contact Me</span>
 
         <div className="contact__container container grid">
+            
             <div className="contact__content">
                 <h3 className="contact__title">Talk to me</h3>
 
@@ -58,7 +59,7 @@ const Contact = () => {
                         <input type="text" name="name" className='contact__form-input' placeholder='Insert your name'/>
                     </div>
 
-                    {/* <div className="contact__form-div">
+                    <div className="contact__form-div">
                         <label className="contact__form-tag">Mail</label>
                         <input type="email" name="email" className='contact__form-input' placeholder='Insert your email'/>
                     </div>
@@ -85,8 +86,8 @@ const Contact = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-                </button> */}
-                </form>
+                </button> 
+                </form> 
             
             </div>
         </div>
