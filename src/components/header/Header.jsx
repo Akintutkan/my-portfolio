@@ -9,14 +9,14 @@ const Header = () => {
     else header.classList.remove("scroll-header")
 } )
     // ========== toggle  Menu ============
-    const [Toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(false);
   const[activeNav,setActiveNav] = useState("#home")
     return (
     <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav__logo">Ahmet Akın Tutkan</a>
 
-            <div className={Toggle ? "nav__menu show-menu": "nav__menu"}>
+            <div className={toggle ? "show-menu": "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
                         <a href="#home"  onClick={()=> setActiveNav("#home")} 
@@ -54,10 +54,10 @@ const Header = () => {
                     </li>
                 </ul>
 
-                <i class="uil uil-times nav__close" onClick={()=>setToggle(!Toggle)}></i>
+                <i class="uil uil-times nav__close" onClick={()=>setToggle(!toggle)}></i>
             </div>
 
-            <div className="nav__toggle" onClick={()=>setToggle(!Toggle)}>
+            <div className="nav__toggle" onClick={()=>setToggle(!toggle)}>
             <i class="uil uil-apps"></i>
             </div>
         </nav>
