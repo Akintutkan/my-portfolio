@@ -26,7 +26,7 @@ const Footer = () => {
         <a href="https://github.com/Akintutkan" className="footer__social-link" target="_blank" rel="noreferrer"> <i class="bx bxl-github"></i></a>
         <a href="https://www.linkedin.com/in/ahmet-akin-tutkan/" className="footer__social-link" target="_blank" rel="noreferrer"> <i class="bx bxl-linkedin"></i></a>
 </div>
-<span className='footer__copy'>&#160; AhmetAkınTutkan. All rights reserved</span>
+<span className='footer__copy'>&#160; AhmetAkınTutkan. All rights reserved <i class="uil uil-copyright"></i></span>
         </div>
     </footer>
   )
