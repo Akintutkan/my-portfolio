@@ -9,7 +9,7 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">my personel Journey</span>
+      <span className="section__subtitle">My Personel Journey</span>
       <div className="qualification__container container">
         <div className="qualification__tabs">
           <div className={toggleState === 1 ? "qualification__button qualification__active button--flex": "qualification__button button--flex"}

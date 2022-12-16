@@ -13,7 +13,7 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img" />
         <div className='about__data'>
         <Info />
-<p className="about__descrption">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+<p className="about__descrption">I worked as a structural engineer in my previous business career. I was involved in both the construction and quality control processes of a building. This was the most important factor that led me to the software. Because as a methodology, both of them go through both a production and quality control processes. And the most important thing for me is to be able to say "I did this" at the end of every project. <br></br> <b>My motto:</b> Always focus on improving myself.
 </p>
 <a download="" href={Resume} className="button button--flex">DownLoad Resume 
 <svg
