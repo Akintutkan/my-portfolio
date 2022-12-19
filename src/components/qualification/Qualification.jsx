@@ -40,7 +40,7 @@ const Qualification = () => {
             </div>
 
  {/* Experience */}
-            {/* <div className="qualification__data">
+            <div className="qualification__data">
                 <div></div>
                 <div>
               <span className="qualification__rounder"></span>
@@ -48,12 +48,13 @@ const Qualification = () => {
             </div>
 
                 <div>
-              <h3 className="qualification__title">Art desing</h3>
-              <span className="qualification__subtitle">Turkey-instut</span>
+              <h3 className="qualification__title">QA/QC Engineer</h3>
+              <span className="qualification__subtitle">Basaksehir City Hospital</span>
               <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2021-Present
+                <i className="uil uil-calendar-alt"></i>2018-2021
               </div>
-            </div> */}
+            </div>
+            </div>
 
           
             
