@@ -4,6 +4,7 @@ import AboutImg from "../../assets/about.png";
 import Resume from "../../assets/Akın-resume.pdf"
 import Info from './Info';
 
+
 const About = () => {
   return (
     <section className="about section" id="about">
@@ -41,6 +42,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
+              
               </a>
     </div>
     </div>
