@@ -58,7 +58,7 @@ const Header = () => {
             </div>
 
             <div className="nav__toggle" onClick={()=>setToggle(!toggle)}>
-            <i class="uil uil-apps"></i>
+            {/* <i class="uil uil-apps"></i> */}
             </div>
         </nav>
         
