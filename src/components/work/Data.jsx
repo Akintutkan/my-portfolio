@@ -2,11 +2,12 @@ import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.png"
 import Work5 from "../../assets/work5.jpg"
-import Work6 from "../../assets/work6.jpg"
 import Work7 from "../../assets/work7.jpg"
 import Work8 from "../../assets/work8.jpg"
 import Work4 from "../../assets/work4.jpg"
 import Work9 from "../../assets/work9.jpg"
+import Work10 from "../../assets/work10.jpg"
+import Work6 from "../../assets/work6.jpg"
 
 
 
@@ -42,16 +43,16 @@ export const projectsData = [
     {
       id: 5,
       image: Work5,
-      title: "Pig Game",
-      category: "javascript",
-      link: "https://piggameexample.netlify.app/"
+      title: "Movie App",
+      category: "react",
+      link: "https://movie-app-ten-beige.vercel.app/"
     },
     {
-      id: 6,
+      id:6,
       image: Work6,
-      title: "Monster Cats",
-      category: "react",
-      link: "https://monstercats.netlify.app/"
+      title:"Weather App",
+      category:"react",
+      link:"https://weatherapppatika.vercel.app/"
     },
     {
       id: 7,
@@ -70,9 +71,16 @@ export const projectsData = [
       {
         id: 9,
         image: Work9,
-        title: "Movie App",
+        title: "Monster Cats",
         category: "react",
-        link: "https://movie-app-ten-beige.vercel.app/"
+        link: "https://monstercats.netlify.app/"
+      },
+      {
+        id: 10,
+        image: Work10,
+        title: "Pig Game",
+        category: "javascript",
+        link: "https://piggameexample.netlify.app/"
       },
       
    
