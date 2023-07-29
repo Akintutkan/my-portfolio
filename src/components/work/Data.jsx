@@ -6,6 +6,7 @@ import Work6 from "../../assets/work6.jpg"
 import Work7 from "../../assets/work7.jpg"
 import Work8 from "../../assets/work8.jpg"
 import Work4 from "../../assets/work4.jpg"
+import Work9 from "../../assets/work9.jpg"
 
 
 export const projectsData = [
@@ -64,6 +65,13 @@ export const projectsData = [
         title: "Add User",
         category: "react",
         link: "https://user-add.netlify.app/"
+      },
+      {
+        id: 9,
+        image: Work9,
+        title: "Cw Calculate",
+        category: "react",
+        link: "https://cwhesaplama.net/"
       },
    
   ];
