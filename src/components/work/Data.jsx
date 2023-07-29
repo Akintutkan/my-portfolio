@@ -9,6 +9,7 @@ import Work4 from "../../assets/work4.jpg"
 import Work9 from "../../assets/work9.jpg"
 
 
+
 export const projectsData = [
     {
       id: 1,
@@ -36,7 +37,7 @@ export const projectsData = [
       image: Work4,
       title: "Cw Calculate",
       category: "react",
-      link: "https://cw-hesaplama.netlify.app/"
+      link: "https://cwhesaplama.net/"
     },
     {
       id: 5,
@@ -69,10 +70,11 @@ export const projectsData = [
       {
         id: 9,
         image: Work9,
-        title: "Cw Calculate",
+        title: "Movie App",
         category: "react",
-        link: "https://cwhesaplama.net/"
+        link: "https://movie-app-ten-beige.vercel.app/"
       },
+      
    
   ];
 
