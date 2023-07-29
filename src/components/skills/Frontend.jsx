@@ -38,7 +38,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
           <div>
-          <h3 className="skills__name">MDBoostrap</h3>
+          <h3 className="skills__name">Boostrap</h3>
           <span className="skills__level">Advanced</span>
         </div>
       </div>
