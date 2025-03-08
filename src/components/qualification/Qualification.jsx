@@ -53,6 +53,25 @@ const Qualification = () => {
               </div>
 
               <div>
+                <h3 className="qualification__title">Frontend Developer - IT Manager</h3>
+                <span className="qualification__subtitle">
+                  LLC Soft
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2023.10-
+                </div>
+                <div><br></br></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              {/* div is space */}
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
                 <h3 className="qualification__title">Trainer Asistant</h3>
                 <span className="qualification__subtitle">
                   Bilge Adam Technology
